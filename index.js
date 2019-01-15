@@ -1,5 +1,7 @@
 console.log(“I’m here”)
 
+function init() {
+
 var button = document.getElementById(‘turn_pink’)
 button.addEventListener(“click”, function() {
   console.log(“hello”);
@@ -7,3 +9,7 @@ button.addEventListener(“click”, function() {
   top_div.style.background = “pink”
 
 })
+
+}
+
+window.onload = init;
